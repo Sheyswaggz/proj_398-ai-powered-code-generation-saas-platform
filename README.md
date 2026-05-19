@@ -1,0 +1,2 @@
+# proj_398-ai-powered-code-generation-saas-platform
+An AI-powered SaaS platform that enables developers to build production-ready software by describing what they want to create in natural language. The platform guides users through a structured onboarding journey — from account creation and email verification to project input and AI-generated code review — using a clean, modern interface with perso
