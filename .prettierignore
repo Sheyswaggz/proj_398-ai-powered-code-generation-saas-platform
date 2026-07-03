@@ -1,0 +1,25 @@
+# Node.js
+node_modules
+
+# Next.js
+.next
+out
+
+# Build outputs
+dist
+build
+.turbo
+
+# Coverage
+coverage
+
+# Minified files
+*.min.js
+*.min.css
+
+# Python
+src/api/.venv
+src/api/__pycache__
+
+# Alembic auto-generated migrations
+src/api/alembic/versions/*.py
