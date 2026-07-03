@@ -1,0 +1,23 @@
+{
+  "name": "ai-codegen-saas",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "workspaces": [
+    "src/web"
+  ],
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "test": "turbo test",
+    "lint": "turbo lint",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "^3.0.0",
+    "turbo": "^2.0.0"
+  }
+}
