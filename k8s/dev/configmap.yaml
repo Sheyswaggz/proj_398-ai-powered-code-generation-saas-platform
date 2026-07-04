@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ai-codegen-backend-config
+  namespace: development
+  labels:
+    app: ai-codegen-backend
+    env: development
+data:
+  APP_NAME: "AI Codegen API"
+  APP_VERSION: "0.1.0"
+  ENVIRONMENT: "development"
+  DEBUG: "false"
+  LOG_LEVEL: "info"
+  JWT_ALGORITHM: "HS256"
+  JWT_ACCESS_TOKEN_EXPIRE_MINUTES: "30"
+  JWT_REFRESH_TOKEN_EXPIRE_DAYS: "7"
+  VERIFICATION_TOKEN_EXPIRE_HOURS: "24"
+  FRONTEND_URL: "http://ai-codegen.dev.local"
