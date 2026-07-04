@@ -1,0 +1,35 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment files
+.env
+.env.*
+
+# Testing
+tests/
+.pytest_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+
+# Build artifacts
+*.egg-info/
+dist/
+build/
+
+# Version control
+.git/
+.github/
+
+# Documentation
+README.md
+
+# Docker files
+Dockerfile
+.dockerignore
